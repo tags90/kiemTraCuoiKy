@@ -176,14 +176,14 @@ public class HangHoaList {
         for (HangHoa hangHoa : hh_list) {
             tong = tong + hangHoa.getStorage();
         }
-        System.out.println("Tong: " +tong + " cai");
+        System.out.println("Tong: " +tong);
     }
     public void tkeTongGiatriNhapKho() {
         int tong = 0;
         for (HangHoa hangHoa : hh_list) {
             tong = tong + hangHoa.getPrice();
         }
-        System.out.println("Tong: "+ tong +"$");
+        System.out.println("Tong: "+ tong+" vnd");
     }
     public void tkeSoLuongTungHangHoa() {
         int tongSoLuongTP = 0;
@@ -194,19 +194,19 @@ public class HangHoaList {
                 tongSoLuongTP = tongSoLuongTP + hh.getStorage();
             }
         }
-        System.out.println("So Luong Thuc Pham: " + tongSoLuongTP + " cai");
+        System.out.println("So Luong Thuc Pham: " + tongSoLuongTP  );
         for (HangHoa hh : hh_list) {
             if (hh.getType().equals("SanhSu")) {
                 tongSoLuongSS = tongSoLuongSS + hh.getStorage();
             }
         }
-        System.out.println("So Luong Sanh Su: " + tongSoLuongSS + " cai");
+        System.out.println("So Luong Sanh Su: " + tongSoLuongSS );
         for (HangHoa hh : hh_list) {
             if (hh.getType().equals("DienMay")) {
                 tongSoLuongDM = tongSoLuongDM + hh.getStorage();
             }
         }
-        System.out.println("So Luong Dien May: " + tongSoLuongDM + " cai");
+        System.out.println("So Luong Dien May: " + tongSoLuongDM);
     }
     //Other - Testing
     //========================================    
