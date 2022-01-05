@@ -15,20 +15,20 @@ public class QuanLyHangHoaTestDrive {
         // hh_list.them(new DienMay("DienMay", "DM003", "Test", 0, 0, 1));
 
         hh_list.them(new ThucPham("ThucPham", "TP984", "DuiGa", 45000, 65, 12));
-        hh_list.them(new ThucPham("ThucPham", "TP147", "Thit", 37000, 134, 24));
-        hh_list.them(new ThucPham("ThucPham", "TP147", "Quyt", 12000, 692, 13));
-        hh_list.them(new ThucPham("ThucPham", "TP147", "ThitHeo", 97500, 563, 18));
+        hh_list.them(new ThucPham("ThucPham", "TP153", "Thit", 37000, 134, 24));
+        hh_list.them(new ThucPham("ThucPham", "TP192", "Quyt", 12000, 692, 13));
+        hh_list.them(new ThucPham("ThucPham", "TP569", "ThitHeo", 97500, 563, 18));
 
-        hh_list.them(new SanhSu("SanhSu", "SS002", "Binh Gom", 153000, 9, 11));
-        hh_list.them(new SanhSu("SanhSu", "SS002", "Chen", 30100, 345, 27));
-        hh_list.them(new SanhSu("SanhSu", "SS002", "Dia", 46000, 120, 21));
-        hh_list.them(new SanhSu("SanhSu", "SS002", "LySu", 26000, 544, 18));
+        hh_list.them(new SanhSu("SanhSu", "SS122", "Binh Gom", 153000, 9, 11));
+        hh_list.them(new SanhSu("SanhSu", "SS192", "Chen", 30100, 345, 27));
+        hh_list.them(new SanhSu("SanhSu", "SS982", "Dia", 46000, 120, 21));
+        hh_list.them(new SanhSu("SanhSu", "SS647", "LySu", 26000, 544, 18));
         
         
-        hh_list.them(new DienMay("DienMay", "SS120", "Tivi", 22700000, 8, 31));
-        hh_list.them(new DienMay("DienMay", "SS120", "MayTinh", 15350999, 6, 20));
-        hh_list.them(new DienMay("DienMay", "SS120", "TuLanh", 15370000, 8, 1));
-        hh_list.them(new DienMay("DienMay", "SS120", "MayGiat", 13550000, 10, 6));
+        hh_list.them(new DienMay("DienMay", "SS300", "Tivi", 22700000, 8, 31));
+        hh_list.them(new DienMay("DienMay", "SS960", "MayTinh", 15350999, 6, 20));
+        hh_list.them(new DienMay("DienMay", "SS640", "TuLanh", 15370000, 8, 1));
+        hh_list.them(new DienMay("DienMay", "SS125", "MayGiat", 13550000, 10, 6));
         
         int chon = -1;        
         do {
@@ -85,9 +85,6 @@ public class QuanLyHangHoaTestDrive {
                                 hh.setType("DienMay");
                                 hh_list.them(hh);
                             }
-                            else{
-                                System.out.println("Ma Hop Khong Hop Le Hoac Khong Tim Thay Trong Loai Hang Ton Tai.");
-                            }
                         }else{
                             System.out.println("Khong Hop Le. Vui Long Nhap Ngay, SL, Gia Chinh Xac (SL Hoac Gia bat buoc > hoac bang 0)");
                         }                    
@@ -113,7 +110,7 @@ public class QuanLyHangHoaTestDrive {
                         String id = input.next();
                         HangHoa hh = new HangHoa(null, id, null, 0, 0, 0);                        
                         hh_list.sua(hh, id);                     
-                }
+                    }
                     break;
                 //==================================================== 
                 case 4:
