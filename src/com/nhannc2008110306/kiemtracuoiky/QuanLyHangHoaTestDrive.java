@@ -25,10 +25,10 @@ public class QuanLyHangHoaTestDrive {
         hh_list.them(new SanhSu("SanhSu", "SS647", "LySu", 26000, 544, 18));
         
         
-        hh_list.them(new DienMay("DienMay", "SS300", "Tivi", 22700000, 8, 31));
-        hh_list.them(new DienMay("DienMay", "SS960", "MayTinh", 15350999, 6, 20));
-        hh_list.them(new DienMay("DienMay", "SS640", "TuLanh", 15370000, 8, 1));
-        hh_list.them(new DienMay("DienMay", "SS125", "MayGiat", 13550000, 10, 6));
+        hh_list.them(new DienMay("DienMay", "DM300", "Tivi", 22700000, 8, 31));
+        hh_list.them(new DienMay("DienMay", "DM960", "MayTinh", 15350999, 6, 20));
+        hh_list.them(new DienMay("DienMay", "DM640", "TuLanh", 15370000, 8, 1));
+        hh_list.them(new DienMay("DienMay", "DM125", "MayGiat", 13550000, 10, 6));
         
         int chon = -1;        
         do {
