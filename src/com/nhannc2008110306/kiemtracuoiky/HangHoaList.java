@@ -214,10 +214,6 @@ public class HangHoaList {
     public void hienThiDoiTuong(HangHoa hh){        
             System.out.println(hh.toString());        
     }
-    //Show Eech Data
-    public void name() {
-        
-    }
     //Show Each Array
     public int hienThiEitherMang(ArrayList<HangHoa> hh_sea, String id){
         for (int i = 0; i < hh_sea.size(); i++) {
