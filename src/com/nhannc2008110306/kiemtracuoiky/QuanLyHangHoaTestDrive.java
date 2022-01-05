@@ -144,11 +144,7 @@ public class QuanLyHangHoaTestDrive {
                                 int s_date = input.nextInt();
                                 System.out.print("Moi Bang Ngay Ket Thuc Tim: ");
                                 int e_date = input.nextInt();                                
-                                if (s_date > 0 && s_date <= 31 && e_date > 0 && e_date <= 31){
-                                    hh_list.timKiemGia(s_date, e_date);
-                                }else{
-                                    System.out.println("Khong The Tim Thay Do Sai Ngay");
-                                }
+                                hh_list.timKiemGia(s_date, e_date);                                
                                 break;
                             default:
                                 break;
