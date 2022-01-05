@@ -144,7 +144,7 @@ public class QuanLyHangHoaTestDrive {
                                 int s_date = input.nextInt();
                                 System.out.print("Moi Bang Ngay Ket Thuc Tim: ");
                                 int e_date = input.nextInt();                                
-                                hh_list.timKiemGia(s_date, e_date);                                
+                                hh_list.timKiemNgay(s_date, e_date);                                
                                 break;
                             default:
                                 break;
